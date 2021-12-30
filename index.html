@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Component</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <script defer src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script type="module" defer src="./js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-dark cart" role="alert">
+            Ваша корзина:
+            <span class="cart__quantity">0</span>
+            <div class="cart-content">
+                <ul class="cart-content__list" data-simplebar>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
