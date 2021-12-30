@@ -332,7 +332,7 @@
 getResources('https://zirreal-cart-server.herokuapp.com/watches')
     .then(data => {
         data.forEach(({img, altimg, title, descr, price}) => {
-            new AddToCartComponent('.container', img, altimg, title, descr, price, 0, 'https://zirreal-cart-server.herokuapp.com//watches').fetch();
+            new AddToCartComponent('.container', img, altimg, title, descr, price, 0, 'https://zirreal-cart-server.herokuapp.com/watches').fetch();
 
     });
 });
