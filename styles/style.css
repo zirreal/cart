@@ -1,4 +1,16 @@
+html {
+	  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
+    min-width: 320px;
+    margin: 20vh auto;
     background-color: aliceblue;
 }
 
